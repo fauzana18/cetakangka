@@ -6,6 +6,9 @@ void salam()
 {
 	cout<<"Assalamu'alaikum";
 }
+void salamTutup () {
+	cout << "Wa'alaikumussalam";
+}
 
 main()
 {
@@ -34,6 +37,8 @@ main()
     {
         cout<<"ERROR";
     }   
+    
+    salamTutup();
     
     getche();
     return 0;  
