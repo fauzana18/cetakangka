@@ -2,6 +2,10 @@
 #include<conio.h>
 using namespace std;
 
+void salamTutup () {
+	cout << "Wa'alaikumussalam";
+}
+
 main()
 {
     int i, j, m, n;
@@ -28,6 +32,8 @@ main()
     {
         cout<<"ERROR";
     }   
+    
+    salamTutup();
     
     getche();
     return 0;  
