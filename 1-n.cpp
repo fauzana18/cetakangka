@@ -2,10 +2,16 @@
 #include<conio.h>
 using namespace std;
 
+void salam()
+{
+	cout<<"Assalamu'alaikum";
+}
+
 main()
 {
     int i, j, m, n;
     
+	salam();
     cout<<"PROGRAM UNTUK MENAMPILKAN ANGKA 1-N SEBANYAK M BARIS\n\n";
     cout<<"Masukkan N: ";
     cin>>n;
